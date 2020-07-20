@@ -1,0 +1,72 @@
+
+
+    @media(max-width: 1199px) {
+
+    
+        
+    }
+
+    @media(max-width: 991px) {
+    
+    
+    .logo {
+        display: block;
+        margin: 15px auto 0 auto;
+        display: table;
+    }
+    .phone-mail {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+    button.navbar-toggler  {
+        outline: none;
+        box-shadow: none;
+        border: none;
+        margin: 0 auto;
+    }    
+    button.navbar-toggler i {
+        color: #fff;
+    } 
+    .navimenu .navbar-collapse {
+        text-align: center;
+    }
+
+
+
+    }
+
+
+    @media(max-width: 767px) {
+
+    .black-part {
+        text-align: center;
+    }
+    .red-part h4 {
+        margin-bottom: 50px;
+    }
+
+
+
+    }
+
+
+
+
+    @media(max-width: 575px) {
+        
+    }
+
+
+
+
+    @media(max-width: 320px) {
+
+
+
+    
+
+
+
+
+    }
