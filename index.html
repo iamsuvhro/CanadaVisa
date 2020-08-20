@@ -23,7 +23,39 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
-
+<style>
+      .cbtn {
+        background-color: #1c87c9;
+        -webkit-border-radius: 60px;
+        border-radius: 80px;
+        border: none;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 15px;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: red;
+          box-shadow: 0 0 5px red;
+        }
+        50% {
+          background-color: red;
+          box-shadow: 0 0 15px red;
+        }
+        100% {
+          background-color: red;
+          box-shadow: 0 0 5px red;
+        }
+      }
+      .cbtn {
+        animation: glowing 1300ms infinite;
+      }
+    </style>
 <body class="body-bg">
 <!--? Preloader Start -->
 <div id="preloader-active">
@@ -57,17 +89,18 @@
                                     <nav> 
                                         <ul id="navigation">                                                                                          
                                             <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="iad.html">IAD Appeals</a></li>
+                                            <li><a href="about.html">About Us</a></li>            
                                             <li><a href="practice-areas.html">Practice Areas</a></li>
                                             <li><a href="success.html">Success Stories</a></li>
                                             <li><a href="contact.html">Contact Us</a></li>
                                             <li><a href="#">More</a>
                                                 <ul class="submenu">
                                                     <li><a href="spousal-sponsorship.html">Spousal Sponsorship</a></li>
+                                                    <li><a href="iad.html">IAD Appeals</a></li>
                                                     <!--<li><a href="detention-reviews.html">Detention Reviews</a></li>-->
                                                     
                                                 </ul>
+                                            <li><a href="tel:+1416-827-3615"><button class="cbtn">Call Us</button></a></li>
                                             </li>
                                         </ul>
                                     </nav>
@@ -95,14 +128,14 @@
                     <div class="row">
                         <div class="col-xl-8 col-lg-7 col-md-8">
                             <div class="hero__caption">
-                                <span data-animation="fadeInLeft" data-delay=".1s" ><h3 style="color: red">Regulated Canadian</h3></span>
-                                <h1 data-animation="fadeInLeft" data-delay=".5s" >Immigration Consultant</h1>
+                                <span data-animation="fadeInLeft" data-delay=".1s" ><h3 style="color: red; padding-top:5px;" >Regulated Canadian</h3></span>
+                                <h1 data-animation="fadeInLeft" data-delay=".5s" style="padding-top:5px;">Immigration Consultant</h1>
                                 <br>
                                <h2 data-animation="fadeInLeft" data-delay=".9s" style="color: black;"><b style="color: black;">Over 20 Years of Combined Experience in
                   Immigration Consulting.</b></h2>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn" data-animation="fadeInLeft" data-delay="1.1s">
-                                    <a href="services.html" class="btn hero-btn">Our Services</a>
+                                    <a href="services.html" class="btn post-btn">Our Service</a>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +155,7 @@
                   Immigration Consulting.</b></h2>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn" data-animation="fadeInLeft" data-delay="1.1s">
-                                    <a href="services.html" class="btn hero-btn">Our Services</a>
+                                    <a href="services.html" class="btn post-btn">Our Service</a>
                                 </div>
                             </div>
                         </div>
